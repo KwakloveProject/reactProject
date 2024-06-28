@@ -1,0 +1,128 @@
+.headerFont {
+  margin-left: 100px;
+  color: white;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+body {
+  height: 98vh;
+  border: 1px solid white;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.list {    
+  color: black;
+  text-align: left;
+  border-bottom: 1px solid black;
+  border: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  position: relative;
+}
+
+header > img {
+  height: 50px;
+  position: relative;
+  left: 5%;
+}
+
+header > ul {
+  display: flex;
+  position: relative;
+}
+
+header > ul > li > a {
+  color: white;
+}
+
+nav {
+  width: 100%;
+}
+
+nav > ul {
+  height: auto;
+  width: 800px;
+  margin-left: 400px;
+  margin-top: 0px;
+}
+
+nav > ul > li {
+  border-bottom: 2px solid #847AA4;
+  display: inline-block;
+}
+
+.content {
+  z-index: 10;
+  background-color: white;
+  position: absolute;
+  display: none;
+  margin-top: 2px;
+  /* width: 124px; */
+}
+
+li > a {
+  display: block;
+  padding: 10px 15px;
+}
+
+.content > a {
+  display: block;
+  padding: 8px 15px; /* Adjust padding to reduce block size */
+}
+
+li.member {
+  float: right;
+  font-size: 13px;
+  border-bottom: none;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+li.member > a {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+li.member > a:hover {
+  color: #847AA4;
+}
+
+header > ul > li > a:hover {
+  color: #847AA4;
+}
+
+nav > ul > li.menu {
+  border-bottom: none;
+  text-align: center;
+  margin-right: 40px;
+  font-size: 18px;
+
+}
+
+li:hover > a {
+  color: #847AA4;
+}
+
+li:hover .content {
+  display: block;
+}
+
+.content > a:hover {
+  color: #847AA4;
+}

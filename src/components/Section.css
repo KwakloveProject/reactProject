@@ -1,0 +1,38 @@
+.carousel-container {
+  max-width: 1200px;
+  margin: auto;
+  
+}
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+  
+}
+
+#slide1
+{
+  margin-top: 50px;
+  border-radius: 10px;
+  /* filter: brightness(50%); */
+  opacity: 0.7;
+  /* background-image: url(.\img\man-3151723_1280.jpg); */
+
+}
+#slide2
+{
+  margin-top: 50px;
+  border-radius: 10px;
+  /* filter: brightness(50%); */
+  opacity: 0.7;
+  /* background-image: url(.\img\grasses-379651_1280.jpg); */
+
+}
+#slide3
+{
+  margin-top: 50px;
+  border-radius: 10px;
+  /* filter: brightness(50%); */
+  opacity: 0.7;
+  /* background-image: url(.\img\barn-2594975_1280.jpg); */
+
+}
